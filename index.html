@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexMail AI</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+</head>
+
+<body>
+
+
+    <header class="top-nav">
+
+        <div class="logo-text">
+            <img src="./images/LOGO .png" alt="NexMail AI Logo" class="logo"></div>
+
+        <nav class="main-links">
+            <a href="#" class="nav-link-top active" data-link="homepage">Homepage</a>
+            <a href="#" class="nav-link-top" data-link="about">About</a>
+            <a href="#" class="nav-link-top" data-link="blog">Blog</a>
+            <a href="#" class="nav-link-top" data-link="contact">Contact us</a>
+        </nav>
+
+        <div class="user-actions">
+            <a href="#" class="log-in-btn">Log in</a>
+            <button class="get-started-btn">Get Started - It's Free</button>
+        </div>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+
+    <div class="dropdown-menu">
+        <a href="#" class="nav-link-top" data-link="homepage">Homepage</a>
+        <a href="#" class="nav-link-top" data-link="about">About</a>
+        <a href="#" class="nav-link-top" data-link="blog">Blog</a>
+        <a href="#" class="nav-link-top" data-link="contact">Contact us</a>
+        <a href="#" class="log-in-btn">Log in</a>
+        <button class="get-started-btn">Get Started - It's Free</button>     </div>
+
+
+    <div class="main-content-area">
+
+        <div class="hero-section">
+
+            <h1 class="hero-title">Designed for<br><span>Your Productivity.</span></h1>
+
+            <p class="hero-subtitle">Smart, secure, and user-friendly email services that put you first.</p>
+        </div>
+
+
+        <main class="content-body-card">
+
+            <div class="sidebar">
+                <!-- Top section -->
+                <div class="sidebar-top">
+                    <div class="logo-container">
+                        <img src="./images/LOGO .png" alt="NexMail AI Logo" class="sidebar-logo">
+
+                    </div>
+                    <button class="new-project-btn">+ New Project</button>
+                </div>
+
+                <!-- Middle section -->
+                <div class="sidebar-nav">
+                    <a href="#" class="nav-link active">
+                        <i class="icon">
+                            <img src="./images/grid.png" alt="Projects">
+                        </i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <i class="icon">
+                            <img src="./images/file.png" alt="Templates">
+                        </i>
+                        <span>Templates</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <i class="icon">
+                            <img src="./images/text.png" alt="Tools">
+                        </i>
+                        <span>Tools</span>
+                    </a>
+                </div>
+
+                <!-- Bottom section -->
+                <div class="log-out-container">
+                    <a href="#" class="nav-link logout">
+                        <i class="icon">➡️</i>
+                        <span>Log Out</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="content-body-inner">
+
+                <header class="content-header-card">
+                    <span>Welcome Back, Prashanta!</span>
+                    <img src="./images/my p.png" alt="User Avatar" class="user-avatar">
+                </header>
+
+                <div class="main-content-section">
+
+                    <div class="main-input-section">
+
+                        <h1 class="card-title">What email do you want to write today?</h1>
+
+
+
+                        <div class="search-container">
+                            <span class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></span>
+                            <!-- You can replace with an SVG or font icon -->
+                            <input type="text" placeholder="I want to write an email to the Hiring Manager of Law firm">
+
+                        </div>
+
+
+                        <p class="tip-text">Tip: the more details you describe above, the better!</p>
+                    </div>
+
+
+                    <h2 class="section-title">Choose Email Type</h2>
+
+                    <div class="email-types-container">
+
+                        <div class="email-type-card" onclick="selectCard(this)">
+                            <span class="icon">
+                            <i class="ti ti-mail"></i> </span>
+                            <h3>Formal Email</h3>
+                            <p>A formal email is used when conducting business with a new associate or executive, sending a professional inquiry, or corresponding about a job.</p>
+                        </div>
+
+                        <div class="email-type-card" onclick="selectCard(this)">
+                            <span class="icon">
+            <i class="ti ti-mail"></i> </span>
+                            <h3>Thank You Email</h3>
+                            <p>Writing a thank-you note or email is a way to show how much you appreciate the recipient.</p>
+                        </div>
+
+                        <div class="email-type-card" onclick="selectCard(this)">
+                            <span class="icon">
+            <i class="ti ti-mail"></i> </span>
+                            <h3>Testimonial Email</h3>
+                            <p>Testimonials lend social proof to your business, but they also show that you care about what your customers think.</p>
+                        </div>
+                    </div>
+
+
+                    <h2 class="section-title">Projects</h2>
+
+                    <div class="projects-container">
+
+                        <p>You don't have any projects yet!</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <div class="email-experience-card">
+
+            <h2 class="email-experience-title">Elevate your email experience.</h2>
+
+            <div class="features-grid">
+
+                <div class="feature-item">
+
+                    <div class="flex">
+                        <span class="feature-icon">
+                        <i class="fa-solid fa-gauge-high"></i>
+                        </span>
+                        <h3>User-friendly dashboard</h3>
+                    </div>
+
+                    <p>Manage all your emails efficiently in one place.</p>
+                </div>
+
+                <div class="feature-item">
+
+                    <div class="flex">
+                        <span class="feature-icon"><i class="fa-solid fa-chart-line"></i></span>
+                        <h3>AI-Powered Email Generation</h3>
+                    </div>
+
+
+                    <p>Create high-quality content with a single click.</p>
+                </div>
+
+                <div class="feature-item">
+
+                    <div class="flex">
+                        <span class="feature-icon"><i class="ti ti-sparkles"></i></span>
+                        <h3>Customizable Templates</h3>
+                    </div>
+
+
+                    <p>Tailor emails to your style and purpose.</p>
+                </div>
+
+                <div class="feature-item">
+
+                    <div class="flex">
+                        <span class="feature-icon"><i class="fa-sharp-duotone fa-solid fa-list-check"></i></span>
+                        <h3>Subject Line Suggestions</h3>
+                    </div>
+
+
+                    <p>Craft attention-grabbing email titles automatically.</p>
+                </div>
+
+                <div class="feature-item">
+
+                    <div class="flex">
+                        <span class="feature-icon"><i class="fa-solid fa-bullseye"></i></span>
+                        <h3>Content Optimization</h3>
+                    </div>
+
+
+                    <p>Improve clarity, tone, and engagement instantly.</p>
+                </div>
+
+                <div class="feature-item">
+
+                    <div class="flex">
+                        <span class="feature-icon"><i class="fa-solid fa-bell"></i></span>
+                        <h3>Multi-Purpose Emails</h3>
+                    </div>
+
+
+                    <p>Generate emails for marketing, professional, or personal use.</p>
+                </div>
+
+                <div class="feature-item">
+
+                    <div class="flex">
+                        <span class="feature-icon">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </span>
+                        <h3>Fast & Efficient</h3>
+                    </div>
+
+
+                    <p>Save time with instant email creation.</p>
+                </div>
+
+                <div class="feature-item">
+
+                    <div class="flex">
+                        <span class="feature-icon"><i class="fa-solid fa-arrow-pointer"></i></span>
+                        <h3>Smart Drafting</h3>
+                    </div>
+
+
+                    <p>Get AI-guided suggestions while writing emails.</p>
+                </div>
+
+                <div class="feature-item">
+
+                    <div class="flex">
+                        <span class="feature-icon"><i class="fa-regular fa-file-zipper"></i></span>
+                        <h3>Seamless Copy & Send</h3>
+                    </div>
+
+
+                    <p>Easily export or copy emails for immediate use.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Our Vision Section -->
+
+    <section class="our-vision-section">
+
+        <h2 class="our-vision-title">Our Vision</h2>
+
+        <p class="our-vision-subtitle">
+            Making email generation effortless for digital marketers and businesses.         </p>
+
+
+        <div class="vision-grid">
+
+            <!-- Grid lines (absolute background) -->
+
+            <div class="grid-line vertical left"></div>
+
+            <div class="grid-line vertical right"></div>
+
+            <div class="grid-line horizontal top"></div>
+
+            <div class="grid-line horizontal bottom"></div>
+
+
+            <!-- Center image -->
+
+            <div class="vision-image">
+                <img src="./images/Avatar@3x 1.png" alt="Prashanta Dey" />             </div>
+
+
+            <!-- Text on right -->
+
+            <div class="vision-text">
+
+                <blockquote>
+                    “NexMail empowers marketers to create high-quality emails in seconds, helping them reach audiences faster and smarter.”                 </blockquote>
+
+                <p class="vision-author">Prashanta Dey<br><span>CEO, NexGenix</span></p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="launch-section">
+
+        <div class="launch-wrapper">
+
+
+            <!-- Version Badge (Left) -->
+
+            <div class="launch-badge">
+                <span class="version">v1.0</span>                 <span class="date">July 2, 2025</span>             </div>
+
+
+            <!-- Main Launch Content (Right) -->
+
+            <div class="launch-container">
+
+                <h2>NexMail v1.0 (Pilot Version)</h2>
+
+                <p class="launch-date">🌐 Launch Date: July 02, 2025</p>
+
+
+                <p class="launch-description">
+                    NexMail is an AI-powered email generation platform. Our mission is to simplify professional communication. We help users<span class="highlight">create high-quality emails</span> in seconds. NexMail offers smart suggestions for subject
+                    lines and content. Designed for digital marketers, professionals, and businesses alike. Our pilot version focuses on fast, reliable email creation. We aim to make email generation effortless and efficient for everyone.</p>
+
+
+                <div class="launch-image">
+                    <img src="./images/IMG_6197 1.png" alt="NexMail Pilot Launch">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Features & Improvements Section -->
+
+    <section class="features-improvements">
+
+        <h2>✨ Features</h2>
+
+        <ul>
+
+            <li>AI-Powered Email Generation: Create professional emails instantly with a single click.</li>
+
+            <li>Customizable Templates: Tailor emails to your style and purpose.</li>
+
+            <li>Subject Line Suggestions: Get automatic, attention-grabbing email titles.</li>
+
+            <li>Smart Drafting Assistance: AI-guided suggestions to improve clarity and tone.</li>
+        </ul>
+
+
+        <h2>💎 Improvements</h2>
+
+        <ul>
+
+            <li>Faster Performance: Generate emails quickly without delays.</li>
+
+            <li>User-Friendly Interface: Simplified design for easy navigation and email management.</li>
+
+            <li>Seamless Copy & Export: Easily copy or export generated emails for immediate use.</li>
+
+            <li>Error Handling: Improved reliability for consistent email generation.</li>
+        </ul>
+    </section>
+
+
+    <!-- FAQ Section -->
+
+    <section class="faq-section">
+
+        <h2 class="faq-title">Frequently Asked Question</h2>
+
+
+        <div class="faq-container">
+
+            <div class="faq-item">
+
+                <h3>What is NexMail AI?</h3>
+
+                <p>NexMail AI is an AI-powered tool that helps you generate professional, personalized emails in seconds — just from a simple prompt.</p>
+            </div>
+
+
+            <div class="faq-item">
+
+                <h3>Who can use NexMail AI?</h3>
+
+                <p>Anyone! Whether you're a student, freelancer, marketer, startup founder, or corporate professional — NexMail AI is designed for anyone who needs to send better emails, faster.</p>
+            </div>
+
+
+            <div class="faq-item">
+
+                <h3>Is it only for cold emails?</h3>
+
+                <p>No. While it’s great for cold outreach, you can use NexMail AI for follow-ups, replies, job applications, marketing emails, and more.</p>
+            </div>
+
+
+            <div class="faq-item">
+
+                <h3>Do I need any technical skills to use it?</h3>
+
+                <p>Not at all. NexMail AI is built to be beginner-friendly. If you can type your idea, you can generate a full email — no setup or writing experience needed.</p>
+            </div>
+
+
+            <div class="faq-item">
+
+                <h3>Can I customize the email tone and style?</h3>
+
+                <p>Yes. You can choose from multiple tones like formal, friendly, persuasive, or neutral, and even fine-tune the message after generation.</p>
+            </div>
+
+
+            <div class="faq-item">
+
+                <h3>Is NexMail AI free to use?</h3>
+
+                <p>We offer a free version with limited email generations. For advanced features and unlimited access, you can upgrade to a premium plan.</p>
+            </div>
+        </div>
+
+
+        <p class="faq-footer">
+            Didn’t find your answer? <a href="#">Contact us here</a>
+        </p>
+    </section>
+
+
+
+    <!-- Explore Free Version Section -->
+
+    <section class="explore-section">
+
+        <div class="explore-container">
+
+            <div class="explore-text">
+
+                <h2>Explore Free Version now!</h2>
+
+                <p>
+                    Try NexMail AI for free and experience how fast and easy writing emails can be. Generate cold emails, follow-ups, and more — no credit card required. Just prompt, click, and send.
+                </p>
+
+                <div class="explore-buttons">
+                    <a href="#" class="btn-primary">Join NexMail Ai</a>
+                    <a href="#" class="btn-secondary">Contact</a>
+                </div>
+            </div>
+
+
+            <div class="explore-image">
+                <img src="./images/Work time-rafiki .png" alt="Explore NexMail Free Version">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Logo -->
+
+            <div class="footer-logo">
+                <img src="./images/LOGO .png" alt="NexMail AI Logo">
+            </div>
+
+
+            <!-- Links Grid -->
+
+            <div class="footer-links">
+
+                <div class="footer-column">
+
+                    <h4>Product</h4>
+                    <a href="#">EmailGenie Reviews</a>
+                    <a href="#">Alternatives</a>
+                    <a href="#">Templates</a>
+                    <a href="#">Write in 25+ Languages</a>
+                </div>
+
+                <div class="footer-column">
+
+                    <h4>Company</h4>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Community</a>
+                    <a href="#">Creator Programs</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+
+                <div class="footer-column">
+
+                    <h4>Support</h4>
+                    <a href="#">Weekly Demos</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Report a Bug</a>
+                    <a href="#">Report an Outage</a>
+                    <a href="#">Request a New Feature</a>
+                </div>
+
+                <div class="footer-column">
+
+                    <h4>Use Cases</h4>
+                    <a href="#">For Students</a>
+                    <a href="#">For Recruiters</a>
+                    <a href="#">For Email Marketers</a>
+                    <a href="#">For Freelancers</a>
+                    <a href="#">For Content Creators</a>
+                    <a href="#">For Bloggers</a>
+                    <a href="#">For Employees</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
